@@ -52,6 +52,7 @@ idf_component_register(
   REQUIRES
     bt
     nvs_flash
+    Arduino
   PRIV_REQUIRES
     ${ESP_NIMBLE_PRIV_REQUIRES}
 )
